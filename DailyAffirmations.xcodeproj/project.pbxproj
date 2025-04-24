@@ -14,6 +14,7 @@
 		B5DA201F2DB9B29A004D010F /* DailyAffirmationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DA201E2DB9B29A004D010F /* DailyAffirmationsTests.swift */; };
 		B5DA20292DB9B29A004D010F /* DailyAffirmationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DA20282DB9B29A004D010F /* DailyAffirmationsUITests.swift */; };
 		B5DA202B2DB9B29A004D010F /* DailyAffirmationsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DA202A2DB9B29A004D010F /* DailyAffirmationsUITestsLaunchTests.swift */; };
+		B5DA20382DB9C267004D010F /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DA20372DB9C267004D010F /* AboutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		B5DA20242DB9B29A004D010F /* DailyAffirmationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyAffirmationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5DA20282DB9B29A004D010F /* DailyAffirmationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyAffirmationsUITests.swift; sourceTree = "<group>"; };
 		B5DA202A2DB9B29A004D010F /* DailyAffirmationsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyAffirmationsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B5DA20372DB9C267004D010F /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				B5DA200D2DB9B290004D010F /* DailyAffirmationsApp.swift */,
+				B5DA20372DB9C267004D010F /* AboutView.swift */,
 				B5DA200F2DB9B290004D010F /* ContentView.swift */,
 				B5DA20112DB9B299004D010F /* Assets.xcassets */,
 				B5DA20132DB9B299004D010F /* Preview Content */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5DA20102DB9B290004D010F /* ContentView.swift in Sources */,
+				B5DA20382DB9C267004D010F /* AboutView.swift in Sources */,
 				B5DA200E2DB9B290004D010F /* DailyAffirmationsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
