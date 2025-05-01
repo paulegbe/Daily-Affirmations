@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B50749EA2DC42FBD00ABBFE9 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50749E92DC42FBD00ABBFE9 /* AppState.swift */; };
+		B50749EC2DC42FE500ABBFE9 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50749EB2DC42FE500ABBFE9 /* OnboardingView.swift */; };
+		B50749EE2DC4301300ABBFE9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50749ED2DC4301300ABBFE9 /* HomeView.swift */; };
+		B50749F02DC4303400ABBFE9 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50749EF2DC4303400ABBFE9 /* FavoritesView.swift */; };
+		B50749F42DC431A300ABBFE9 /* AffirmationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50749F32DC431A300ABBFE9 /* AffirmationViewModel.swift */; };
 		B5DA200E2DB9B290004D010F /* DailyAffirmationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DA200D2DB9B290004D010F /* DailyAffirmationsApp.swift */; };
 		B5DA20102DB9B290004D010F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DA200F2DB9B290004D010F /* ContentView.swift */; };
 		B5DA20122DB9B299004D010F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5DA20112DB9B299004D010F /* Assets.xcassets */; };
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B50749E92DC42FBD00ABBFE9 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		B50749EB2DC42FE500ABBFE9 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B50749ED2DC4301300ABBFE9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B50749EF2DC4303400ABBFE9 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		B50749F32DC431A300ABBFE9 /* AffirmationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationViewModel.swift; sourceTree = "<group>"; };
 		B5DA200A2DB9B290004D010F /* DailyAffirmations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyAffirmations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5DA200D2DB9B290004D010F /* DailyAffirmationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyAffirmationsApp.swift; sourceTree = "<group>"; };
 		B5DA200F2DB9B290004D010F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +107,11 @@
 			isa = PBXGroup;
 			children = (
 				B5DA200D2DB9B290004D010F /* DailyAffirmationsApp.swift */,
+				B50749F32DC431A300ABBFE9 /* AffirmationViewModel.swift */,
+				B50749ED2DC4301300ABBFE9 /* HomeView.swift */,
+				B50749EF2DC4303400ABBFE9 /* FavoritesView.swift */,
+				B50749E92DC42FBD00ABBFE9 /* AppState.swift */,
+				B50749EB2DC42FE500ABBFE9 /* OnboardingView.swift */,
 				B5DA20372DB9C267004D010F /* AboutView.swift */,
 				B5DA200F2DB9B290004D010F /* ContentView.swift */,
 				B5DA20112DB9B299004D010F /* Assets.xcassets */,
@@ -261,8 +276,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5DA20102DB9B290004D010F /* ContentView.swift in Sources */,
+				B50749F42DC431A300ABBFE9 /* AffirmationViewModel.swift in Sources */,
 				B5DA20382DB9C267004D010F /* AboutView.swift in Sources */,
 				B5DA200E2DB9B290004D010F /* DailyAffirmationsApp.swift in Sources */,
+				B50749EE2DC4301300ABBFE9 /* HomeView.swift in Sources */,
+				B50749F02DC4303400ABBFE9 /* FavoritesView.swift in Sources */,
+				B50749EC2DC42FE500ABBFE9 /* OnboardingView.swift in Sources */,
+				B50749EA2DC42FBD00ABBFE9 /* AppState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

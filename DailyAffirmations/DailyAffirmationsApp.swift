@@ -1,17 +1,16 @@
-//
-//  DailyAffirmationsApp.swift
-//  DailyAffirmations
-//
-//  Created by Paul Egbe on 4/23/25.
-//
-
 import SwiftUI
 
 @main
-struct DailyAffirmationsApp: App {
+struct DailyAffirmationApp: App {
+    @StateObject private var appState = AppState()
+    @StateObject private var viewModel = AffirmationViewModel()
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(appState)
+                .environmentObject(viewModel)
         }
     }
 }
+

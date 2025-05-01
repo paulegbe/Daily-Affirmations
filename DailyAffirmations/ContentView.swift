@@ -1,43 +1,26 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var affirmation = "You are worthy of love and growth."
-
-    let affirmations = [
-        "You are enough just as you are.",
-        "Today is full of potential.",
-        "You bring value to the world.",
-        "Your presence is powerful.",
-        "You are worthy of love and growth."
-    ]
+    @EnvironmentObject var appState: AppState
 
     var body: some View {
-        NavigationStack {
-            VStack(spacing: 20) {
-                Text(affirmation)
-                    .font(.title2)
-                    .multilineTextAlignment(.center)
-                    .padding()
-
-                Button("New Affirmation") {
-                    affirmation = affirmations.randomElement() ?? affirmation
-                }
-                .padding()
-                .background(Color.blue)
-                .foregroundColor(.white)
-                .cornerRadius(10)
-
-                NavigationLink("About This App", destination: AboutView())
-                    .padding(.top, 40)
+        if appState.showOnboarding {
+            OnboardingView()
+        } else {
+            TabView {
+                HomeView()
+                    .tabItem {
+                        Label("Home", systemImage: "house")
+                    }
+                FavoritesView()
+                    .tabItem {
+                        Label("Favorites", systemImage: "heart")
+                    }
+                AboutView()
+                    .tabItem {
+                        Label("About", systemImage: "info.circle")
+                    }
             }
-            .padding()
-            .navigationTitle("Daily Affirmations")
         }
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
     }
 }
